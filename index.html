@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Age Calculator</h1>
+    <div class="data_input">
+      <label for="birthDate">Birth Date</label>
+      <input
+        type="text"
+        class="birthDate"
+        id="birthDate"
+        required
+        placeholder="Enter Your BirthDate"
+      /><br />
+      <label for="birthMonth">Birth Month</label>
+      <input
+        type="text"
+        class="birthMonth"
+        id="birthMonth"
+        placeholder="Enter Your birthMonth"
+      /><br />
+      <label for="birthYear">Birth Year</label>
+      <input
+        type="text"
+        class="birthYear"
+        id="birthYear"
+        placeholder="Enter Your birthYear"
+      /><br />
+      <button onclick="age_cal()" type="submit">Age</button>
+    </div>
+
+    <h3><span class="display"></span></h3>
+    <script src="./index.js"></script>
+  </body>
+</html>
